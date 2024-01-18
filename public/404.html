@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      var segmentCount = 1;
+
+      var l = window.location;
+      l.replace(
+        loc.protocol + "//" +
+        loc.hostname +
+        (loc.port ? ":" + loc.port : "") +
+        loc.pathname.split("/").slice(0, segmentCount + 1).join("/") +
+        "/?p=/" +
+        loc.pathname.split("/").slice(segmentCount + 1).join("/").replace(/&/g, "~and~") +
+        (loc.search ? "&q=" + loc.search.slice(1).replace(/&/g, "~and~") : "") +
+        loc.hash
+      );
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
