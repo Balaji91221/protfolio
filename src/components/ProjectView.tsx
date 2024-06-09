@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectData from "../assets/ProjectData";
 
-const topicAll = ["*", "Python", "Web", "Django", "React"];
+const topicAll = ["*", "Python", "Web", "React", "ML/NLP/DL"];
 
 const ProjectView = () => {
   const [topic, setTopic] = useState(topicAll[0]);
