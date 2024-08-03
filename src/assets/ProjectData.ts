@@ -5,8 +5,18 @@ import github from './github.png';
 import nlpres from './nlpres.png';
 import emotion from './emotion.jpeg';
 import movie from './movie.jpeg'
+import Fooddel from './Fooddel.png'
 const ProjectData = [
     
+    {
+      title: 'Food Ordering Application',
+      desc: 'Developed a comprehensive full-stack web application for online food ordering using React, Express.js, and MongoDB. The project features a responsive UI/UX for browsing food categories and managing carts, a robust admin dashboard for managing food items',
+      img: Fooddel,
+      link: 'https://github.com/Balaji91221/Food-delivery-App',
+      tags: ['React','Node.js','Express.js','MongoDB'],
+      featured: 'ResumeBulder',
+      category: ['Web', 'React']
+    },
     {
       title: 'Resume Maker',
       desc: 'A Dynamic Resume Generating website made with ReactJS. Feature include Local Storage System, that saves your data even on page refresh.',
